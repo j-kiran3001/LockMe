@@ -1,0 +1,102 @@
+Algorithm
+
+1. Start the application
+2. Display welcome screen and prompt the user menu
+	"Available Actions:
+		1 - Display the lists of files in the directory
+		2 - Display the available options for user 
+		3 - Close the application
+	
+	Enter your choice"
+3. Take input from user 
+4. if input is between 1 to 4
+	for 1
+		Display the lists of files in the directory (in ascending order)
+		4. if input is int 1 
+		5. Make a arrayList of files available in the root directory
+		6. if arrayList is empty, print "Directory is Empty"
+		7. if arrayList is not empty, sort the arrayList 
+		8. check for text files only 
+		9. if 0 text file found in the directory, print "This directory does not contain any text file."
+		10. if text file found in the directory, print the text file names one by one
+
+
+	for 2
+		Display the available options for user
+		4. if input is int 2
+		5. print the "available options for user"
+			" Available Options for User:
+				1 - Add a file in the directory
+				2 - Delete a file from the directory
+				3 - Search a file in the directory
+				4 - Return to main menu "
+		4. if input is between 1 to 4
+				for 1
+					6. Take input from user 
+					7. if input is int 1
+					8. prompt message as 
+						"🛈 You can only add text file
+						Enter the file name that you want to add:"
+					9. Take input from user
+					10. check if the enter file name is valid
+					11. if user entered valid filename then check if the file is already exist or not
+					12. if file already exist prompt message as "File already exists."
+					13. if file does not exist, create a file 	
+
+				for 2
+					Delete a file from the directory
+					6. Take input from user 
+					7. if input is int 2
+					8. prompt message as 
+						"Enter the file name that you want to delete:"
+					9. Take input from user
+					10. if the enter file is exists in the directory, delete the file and prompt message as "File deleted..!!"
+					11. if the enter file does not exists in the directory, prompt message as "File not found."
+
+				for 3
+					Search a file in the directory
+					6. Take input from user 
+					7. if input is int 3
+					8. prompt message as 
+						"Enter the file name that you want to search:"
+					9. Take input from user
+					10. if the enter file is exists in the directory, print the details of the file.
+					11. if the enter file does not exists in the directory, prompt message as "File not found."
+
+				for 4
+					6. Print the main meun
+							"Back to main menu 
+							----------------------------------------------------------
+							Available Actions:
+								1 - Display the lists of files in the directory
+								2 - Display the available options for user 
+								3 - Close the application"
+								
+	for 3
+		Close the application
+		4. if input is int 3
+		5. Close the application
+		
+5. if input is other than 1 to 4, print 
+	"Invalid input.
+	Please select valid option.
+	----------------------------------------------------------
+	Available Actions:
+		1 - Display the lists of files in the directory
+		2 - Display the available options for user 
+		3 - Close the application
+	
+	Enter your choice"
+
+
+
+
+
+
+
+
+
+
+
+
+
